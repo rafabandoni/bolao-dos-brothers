@@ -13,7 +13,8 @@ class PicksPoints:
         return merged_df
     
     def create_point_per_player_table(self, merged_df):
-        final_table = merged_df.groupby('player', as_index=False).sum(numeric_only=True)
+        final_table = merged_df.groupby('player', as_index=False).mean(numeric_only=True)
+        final_table['pts'] = round(final_table['pts'], 3)
 
         return final_table
     

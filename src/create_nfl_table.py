@@ -56,11 +56,13 @@ class CreateNflTable:
         diferenca_pontos = row['pts_winner'] - row['pts_loser']
         
         if diferenca_pontos > 0:
-            return 3  # 3 pontos para a equipe vencedora
+            return 1  # 1 pontos para a equipe vencedora
         elif diferenca_pontos == 0:
-            return 1  # 1 ponto para um empate
+            return 0.5  # 0.5 ponto para um empate
         else:
             return 0  # 0 pontos para a equipe perdedora
+        
+        # (wins + 0.5 x ties) / games
     
     def create_score_table(self, nfl_df):
         try:
@@ -71,8 +73,8 @@ class CreateNflTable:
 
             df["Pontos"] = df.apply(self.calcular_pontos, axis=1)
 
-            df_winner = df[df['Pontos'] == 3].reset_index(drop=True)
-            df_ties = df[df['Pontos'] == 1].reset_index(drop=True)
+            df_winner = df[df['Pontos'] == 1].reset_index(drop=True)
+            df_ties = df[df['Pontos'] == 0.5].reset_index(drop=True)
 
             df_winner_final = df_winner.groupby('winner', as_index=False).sum()[['winner', 'Pontos']]
             df_winner_final.columns = self.columns
@@ -86,6 +88,7 @@ class CreateNflTable:
             df_ties_final = df_1.append(df_2)
 
             df_final = df_winner_final.append(df_ties_final).groupby('team', as_index=False).sum()
+            df_final['pts'] = df_final['pts'] / len(df['week'].unique())
 
         except Exception as e:
             print(e)
