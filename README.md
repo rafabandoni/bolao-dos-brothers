@@ -5,9 +5,9 @@ TABELA ATUAL
 |   Player   |  Pontos  |
 |------------|----------|
 |   DUDIS   |    0.643    |
-|   CERJO   |    0.589    |
-|    RAFO   |    0.554    |
-|    JÃO    |    0.482    |
-|    ROD    |    0.464    |
-|   NETO    |    0.429    |
-|  CARLOS   |    0.393    |
+|   CERJO   |    0.586    |
+|    RAFO   |    0.543    |
+|    JÃO    |    0.486    |
+|  CARLOS   |    0.457    |
+|   NETO    |    0.457    |
+|  ROD      |    0.414    |
