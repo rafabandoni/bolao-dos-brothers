@@ -4,10 +4,10 @@ Automação para pontuação do nosso bolão da NFL.
 TABELA ATUAL
 |   Player   |  Pontos  |
 |------------|----------|
-|   DUDIS   |    0.584    |
-|   CERJO   |    0.539    |
-|    RAFO   |    0.519    |
-|    NETO   |    0.435    |
-|    JÃO    |    0.435    |
-|   CARLOS  |    0.403    |
-|  ROD      |    0.377    |
+|   DUDIS   |    105    |
+|   CERJO   |    96     |
+|    RAFO   |    90     |
+|    NETO   |    75     |
+|    JÃO    |    75     |
+|   CARLOS  |    73     |
+|    ROD    |    69     |

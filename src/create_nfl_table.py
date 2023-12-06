@@ -88,7 +88,7 @@ class CreateNflTable:
             df_ties_final = df_1.append(df_2)
 
             df_final = df_winner_final.append(df_ties_final).groupby('team', as_index=False).sum()
-            df_final['pts'] = df_final['pts'] / len(df['week'].unique())
+            # df_final['pts'] = df_final['pts'] / len(df['week'].unique())
 
         except Exception as e:
             print(e)
