@@ -10,8 +10,8 @@ CARLOS,Chicago Bears
 CARLOS,New Orleans Saints
 CARLOS,Philadelphia Eagles
 CARLOS,San Francisco 49ers
-CARLOS,Dallas Cowbovs
-CARLOS,Green Bav Packers
+CARLOS,Dallas Cowboys
+CARLOS,Green Bay Packers
 CARLOS,Los Angeles Rams
 CERJO,Cincinnati Bengals
 CERJO,Jacksonville Jaguars
@@ -50,10 +50,10 @@ JÃO,Los Angeles Chargers
 JÃO,New York Jets
 JÃO,Detroit Lions
 JÃO,New Orleans Saints
-JÃO,Philadelohia Eagles
+JÃO,Philadelphia Eagles
 JÃO,San Francisco 49ers
-JÃO,Dallas Cowbovs
-JÃO,Minnesota Vikinas
+JÃO,Dallas Cowboys
+JÃO,Minnesota Vikings
 JÃO,Seattle Seahawks
 NETO,Cincinnati Bengals
 NETO,Jacksonville Jaguars
@@ -64,10 +64,10 @@ NETO,Los Angeles Chargers
 NETO,Pittsburgh Steelers
 NETO,Minnesota Vikings
 NETO,New Orleans Saints
-NETO,Philadelohia Eagles
+NETO,Philadelphia Eagles
 NETO,San Francisco 49ers
-NETO,Dallas Cowbovs
-NETO,Detroit I ions
+NETO,Dallas Cowboys
+NETO,Detroit Lions
 NETO,Seattle Seahawks
 RAFO,Cincinnati Bengals
 RAFO,Jacksonville Jaguars
@@ -78,7 +78,7 @@ RAFO,Los Angeles Chargers
 RAFO,New York Jets
 RAFO,Detroit Lions
 RAFO,New Orleans Saints
-RAFO,Philadelohia Eagles
+RAFO,Philadelphia Eagles
 RAFO,San Francisco 49ers
 RAFO,Dallas Cowboys
 RAFO,Minnesota Vikings
@@ -91,9 +91,9 @@ ROD,Cincinnati Bengals
 ROD,Jacksonville Jaguars
 ROD,New York Jets
 ROD,Green Bay Packers
-ROD,Tampa Bav Buccs
-ROD,Philadelohia Eagles
+ROD,Tampa Bay Buccaneers
+ROD,Philadelphia Eagles
 ROD,Seattle Seahawks
 ROD,New York Giants
-ROD,Minnesota Vikinas
+ROD,Minnesota Vikings
 ROD,Washington Commanders
